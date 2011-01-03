@@ -1,0 +1,46 @@
+
+#top-right-menu {
+	@include horizontal-list(10px);
+	 background: url("../images/themes/toprightmenu_bg.png") repeat-x scroll 0 0 transparent;
+	 height: 29px;
+	 float: right;
+	 position: relative;
+	 top: 1px;	
+	 overflow: hidden;
+
+	li{
+		background: image-url($top-right-menuseparator) no-repeat; 
+		height: 19px; 
+		padding-top: 7px;
+		background-position: right;
+	
+		&.last{
+			background: none;
+			padding-right: 10px;
+			padding-left: 10px;			
+		}
+		&.first{
+			padding-right: 10px;
+			padding-left: 10px;
+		}
+	}
+
+
+	a{font-family:($subfont);color:($black);}
+}
+.top-right-right {
+    background: url("../images/themes/toprightmenu_right.png") no-repeat scroll 0 0 transparent;
+    float: right;
+    height: 29px;
+    position: relative;
+    top: 1px;
+    width: 4px;	
+}
+.top-right-left {
+    background: url("../images/themes/toprightmenu_left.png") no-repeat scroll 0 0 transparent;
+    float: right;
+    height: 29px;
+    position: relative;
+    top: 1px;
+    width: 4px;	
+}

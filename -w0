@@ -1,0 +1,281 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta name="generator" content=
+  "HTML Tidy for Windows (vers 25 March 2009), see www.w3.org" />
+  <meta http-equiv="Content-Type" content=
+  "text/html; charset=us-ascii" />
+  <meta name="description" content="Gassmagasinet" />
+  <meta name="keywords" content="" />
+  <link rel="stylesheet" type="text/css" href=
+  "stylesheets/cyan.css" charset="utf-8" />
+  <!--script src="/js/prototype.js" type="text/javascript"> </script-->
+  <!--[if lt IE 7.]>
+                <script defer type="text/javascript" src={"js/pngfix.js"|ezdesign}></script>
+        <![endif]-->
+
+  <title>Gassmagasinet.no</title>
+</head>
+
+<body>
+  <!--######### MENU START #########-->
+
+  <div class="all-cols">
+    <div class="container">
+      <div id="top-banner">
+        <div class="grid-padder clearfix">
+          <div class="hlh-box fl">
+            <div class="padder clearfix">
+              <a href="/section/hvemlevererhva">Produkt og
+              tjenestegrupper</a><br />
+              Firma- og fritekst-s&Atilde;&cedil;k:<br />
+
+              <form action="/section/hvemlevererhva" name="submit1"
+              class="searchfield" target="_self" method="get" id=
+              "submit1">
+                <input name="cont" value="251" type="hidden" />
+                <input name="side" value="40" type="hidden" />
+                <input name="type" value="1" type="hidden" />
+                <input class="searchfield" name="rhl_felt_seek"
+                value="" type="text" /> <input src=
+                "images/hlh-search-btn.gif" alt="S&Atilde;&cedil;k"
+                class="hlh-searchbtn" type="image" />
+              </form>
+            </div>
+          </div>
+
+          <div class="ad-768"><img src=
+          "http://gm.oams.eu.publicus.com/ads/GM/abo-768x150_gass.jpg" /></div>
+
+          <div class="ad-150"><img src=
+          "http://gm.oams.eu.publicus.com/ads/GM/medabo-150x150-r.gif" /></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="top">
+    <div class="container">
+      <div id="top-wrapper" class="grid-padder clearfix">
+        <h2 id="logo"><a href=
+        "/apps/pbcs.dll/forside?Profile=1001&amp;ExpNodes=1001">M&Atilde;&cedil;bel
+        og Interi&Atilde;&cedil;r</a></h2>
+
+        <div class="top-right">
+          <div class="clearfix">
+            <div class="top-right-right"></div>
+
+            <div class="top-right-wrapper">
+              <ul id="top-right-menu">
+                <li class="first"><a href="#">Annonser</a></li>
+
+                <li><a href="#">Abonnement</a></li>
+
+                <li><a href="#">Nyhetsbrev</a></li>
+
+                <li class="last"><a href="#">Om M&Atilde;&cedil;bel
+                og interi&Atilde;&cedil;r</a></li>
+              </ul>
+            </div>
+
+            <div class="top-right-left"></div>
+          </div>
+
+          <div class="top-search-box">
+            <div class="padder">
+              <form method="get" action=
+              "/apps/pbcs.dll/search?Category=SEARCH">
+                <input alt="S&Atilde;&cedil;k" src="images/t.gif"
+                class="fr searchbutton" type="image" />
+                <input class="fr searchfield" name="crit" type=
+                "text" />
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="main-menu">
+    <div class="container">
+      <div id="left-side">
+        <ul>
+          <li class="active"><a class="active" href=
+          "#">Forside</a></li>
+
+          <li><a href="#">Bransje</a></li>
+
+          <li><a href="#">Tema</a></li>
+
+          <li><a href="#">Debatt</a></li>
+
+          <li><a href="#">Produktnytt</a></li>
+        </ul>
+      </div>
+
+      <div id="right-side">
+        <ul>
+          <li><a href="#">Bedre butikk</a></li>
+
+          <li><a href="#">Hvem leverer hva</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div id="sub-menu">
+    <div class="container">
+      <ul>
+        <li><a href="#">Handel</a></li>
+
+        <li><a href="#">Industri</a></li>
+
+        <li><a href="#">Design</a></li>
+      </ul>
+    </div>
+
+    <div class="submenu-bottom"></div>
+  </div><!--######### MENU STOP #########-->
+
+  <div class="container" id="content">
+    <div class="grid-padder clearfix">
+      <div class="col-1-2-3">
+        <h1 class="article-header">Nye frister for
+        biogass-st&Atilde;&cedil;tte</h1>
+
+        <div class="col-1-2 mr">
+          <div class="article">
+            <div class="article-mainpicture"><img alt="" src=
+            "http://GMimg.no.publicus.com/apps/pbcsi.dll/bilde?Site=GM&amp;Date=20101116&amp;Category=NYHETER&amp;ArtNo=101119999&amp;Ref=AR&amp;MaxW=456" /></div>
+
+            <div class="picture-caption">
+              Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit. Proin varius, nisl eget cursus ornare, risus mi
+              lacinia arcu, quis porta massa neque a sapien.
+            </div>
+
+            <div class="summary">
+              Sed placerat vulputate felis, in pellentesque nulla
+              condimentum sed. Aliquam aliquam ipsum ac diam
+              accumsan ac malesuada justo scelerisque. Aliquam erat
+              volutpat. Vivamus eget neque lectus, ut semper neque.
+              Vivamus consequat, lacus id vestibulum dictum, nibh
+              dolor dapibus est, sed scelerisque urna odio eget
+              massa. asdfasdf
+            </div>
+          </div>
+        </div>
+
+        <div class="col-3 mr">
+          COL-3 <!-- END COL 3-->
+        </div><!-- /END COL 3-->
+      </div>
+
+      <div class="col-4">
+        <div class="ad-container">
+          <div class="header"></div>
+
+          <div class="padder clearfix">
+            <div class="col mr">
+              BANNERE <!-- BANNER COL 4 - COL 1 -->
+            </div>
+
+            <div class="col" id="col">
+              BANNERE <!-- BANNER COL 4 - COL 2 -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="footer-color">
+        <div class="padder clearfix">
+          <div class="col-1">
+            <ul>
+              <li style="list-style: none; display: inline">
+                <h3><a href="#">Branje</a></h3>
+              </li>
+
+              <li><a href="#">Handel</a></li>
+
+              <li><a href="#">Industri</a></li>
+
+              <li><a href="#">Design</a></li>
+            </ul>
+
+            <ul>
+              <li style="list-style: none; display: inline">
+                <h3><a href="#">Tema</a></h3>
+              </li>
+
+              <li><a href="#">Trend &amp; Livsstil</a></li>
+
+              <li><a href="#">Tekstiler</a></li>
+
+              <li><a href="#">Messer</a></li>
+            </ul>
+
+            <ul>
+              <li style="list-style: none; display: inline">
+                <h3><a href="#">Debatt</a></h3>
+              </li>
+
+              <li><a href="#">Leder</a></li>
+
+              <li><a href="#">Leserbrev</a></li>
+
+              <li><a href="#">Meninger</a></li>
+            </ul>
+
+            <ul class="last">
+              <li style="list-style: none; display: inline">
+                <h3><a href="#">Produktnytt</a></h3>
+              </li>
+
+              <li><a href="#">M&Atilde;&cedil;bler</a></li>
+
+              <li><a href="#">Interi&Atilde;&cedil;r</a></li>
+
+              <li><a href="#">Belysning</a></li>
+
+              <li><a href="#">Tepper</a></li>
+
+              <li><a href="#">Tekstil</a></li>
+            </ul>
+          </div>
+
+          <div class="col-2">
+            <h3>M&Atilde;&cedil;bel &amp;
+            Interi&Atilde;&cedil;r</h3>
+
+            <p><strong>Redakt&Atilde;&cedil;r</strong><br />
+            &Atilde;&tilde;ystein Munz Tlf:<br />
+            + 47 22 70 83 25<br />
+            e-mail: <a href=
+            "mailto:oystein.munz@skarland.no">oystein.munz@skarland.no</a></p>
+
+            <div class="line"></div>
+
+            <div class="logo"></div>
+
+            <p><strong>Utgiver:</strong><br />
+            Skarland Press AS<br />
+            Postboks 2843, T&Atilde;&cedil;yen<br />
+            0608 OSLO.</p>
+
+            <p><strong>Bes&Atilde;&cedil;ksadresse:</strong><br />
+            Kj&Atilde;&brvbar;lberggata 31A<br />
+            Tlf 22 70 83 00 - Faks 22 70 83 01<br />
+            <a href="http://www.skarland.no" target=
+            "_blank">www.skarland.no</a><br /></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

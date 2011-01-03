@@ -1,0 +1,2610 @@
+@charset "UTF-8";
+/* GREEN Theme */
+/* LINKS */
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 14, ../../../../../Ruby/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+
+/* line 17, ../../../../../Ruby/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+body {
+  line-height: 1;
+  color: black;
+  background: white;
+}
+
+/* line 19, ../../../../../Ruby/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 21, ../../../../../Ruby/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  vertical-align: middle;
+}
+
+/* line 23, ../../../../../Ruby/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 25, ../../../../../Ruby/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: "" "";
+}
+/* line 96, ../../../../../Ruby/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+}
+
+/* line 27, ../../../../../Ruby/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* LINKS */
+/* line 2, ../src/partials/_main.scss */
+.clearfix {
+  display: inline-block;
+  display: block;
+}
+/* line 3, ../src/partials/_main.scss */
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+/* Hide from IE Mac \ */
+/* End hide from IE Mac */
+/* line 16, ../src/partials/_main.scss */
+html body {
+  /*	background-image:url(../images/bg-gradient.jpg); */
+  margin: 0;
+  padding: 0;
+  font-family: georgia, "times New Roman";
+  font-size: 0.75em;
+  color: #252f47;
+  background: url(../images/themes/main_background.png) 50% repeat-y;
+  /*background:transparent url(../RF_forside_996.jpg) no-repeat scroll 334px 0 */
+}
+
+/* line 27, ../src/partials/_main.scss */
+strong {
+  font-weight: bold;
+}
+
+/* line 30, ../src/partials/_main.scss */
+a {
+  color: #547a8c;
+}
+
+/* line 33, ../src/partials/_main.scss */
+h1, h2, h3, h4, h5, h1 a, h2 a, h3 a, h4 a, h5 a {
+  font-family: georgia, "times New Roman";
+  font-weight: normal;
+  color: #0a0a0a;
+  text-decoration: none;
+}
+
+/* line 39, ../src/partials/_main.scss */
+ul {
+  list-style-position: inside;
+  list-style-type: square;
+}
+
+/* line 43, ../src/partials/_main.scss */
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover {
+  text-decoration: underline;
+}
+
+/* line 46, ../src/partials/_main.scss */
+h1.category {
+  font-size: 23px;
+  font-family: georgia, "times New Roman";
+  font-weight: bold;
+  color: black;
+  padding: 10px 0 5px;
+  /*background:url(../images/catheader-bg.jpg) repeat-x bottom; */
+  margin-bottom: 9px;
+  border-bottom: 1px solid #dfdede;
+  text-transform: uppercase;
+}
+/* line 54, ../src/partials/_main.scss */
+h1.category a {
+  font-size: 23px;
+  font-family: georgia, "times New Roman";
+  font-weight: bold;
+  color: black;
+  padding: 10px 0 5px;
+  /*background:url(../images/catheader-bg.jpg) repeat-x bottom; */
+  margin-bottom: 9px;
+}
+
+/* line 65, ../src/partials/_main.scss */
+.grey {
+  color: #818084;
+}
+
+/* line 68, ../src/partials/_main.scss */
+.italic {
+  font-style: italic;
+}
+
+/* line 71, ../src/partials/_main.scss */
+.fr {
+  float: right;
+}
+
+/* line 74, ../src/partials/_main.scss */
+.fl {
+  float: left;
+}
+
+/* line 77, ../src/partials/_main.scss */
+.fs11 {
+  font-size: 11px;
+}
+
+/* line 80, ../src/partials/_main.scss */
+.ptb5 {
+  padding: 5px 0;
+}
+
+/* line 83, ../src/partials/_main.scss */
+a.hoverlink {
+  text-decoration: none;
+}
+/* line 85, ../src/partials/_main.scss */
+a.hoverlink:hover {
+  text-decoration: underline;
+}
+
+/* line 88, ../src/partials/_main.scss */
+.ttu {
+  text-transform: uppercase;
+}
+
+/* line 91, ../src/partials/_main.scss */
+.arial {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* line 94, ../src/partials/_main.scss */
+.tar {
+  text-align: right;
+}
+
+/* line 97, ../src/partials/_main.scss */
+.hidden {
+  display: none;
+}
+
+/* line 100, ../src/partials/_main.scss */
+.padder {
+  padding: 9px;
+}
+
+/* line 103, ../src/partials/_main.scss */
+.grid-padder {
+  padding: 9px 10px;
+}
+
+/* line 106, ../src/partials/_main.scss */
+.container {
+  width: 1134px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*
+.all-cols .container {
+  background: url(../images/main_background.png) repeat-y; }
+*/
+/* line 124, ../src/partials/_main.scss */
+#content .grid-padder {
+  padding-top: 0;
+  padding-right: 0;
+}
+
+/* line 128, ../src/partials/_main.scss */
+.mr {
+  margin: 0px 13px 0px 0px;
+}
+
+/* line 131, ../src/partials/_main.scss */
+.col-1-2 {
+  width: 468px;
+  float: left;
+  overflow: hidden;
+}
+/* line 135, ../src/partials/_main.scss */
+.col-1-2 .mr {
+  margin: 0px 16px 0px 0px;
+}
+
+/* line 138, ../src/partials/_main.scss */
+.col-1-2-3 {
+  width: 781px;
+  float: left;
+  overflow: hidden;
+}
+
+/* line 143, ../src/partials/_main.scss */
+.col-1, .col-2 {
+  float: left;
+  width: 226px;
+  overflow: hidden;
+}
+
+/* line 148, ../src/partials/_main.scss */
+.col-3 {
+  width: 287px;
+  float: left;
+  overflow: hidden;
+}
+
+/* line 153, ../src/partials/_main.scss */
+.col-4 {
+  width: 343px;
+  float: left;
+  overflow: hidden;
+  padding-bottom: 8px;
+  /*	background:url(../images/col4-end.jpg) no-repeat bottom; */
+}
+
+/* line 160, ../src/partials/_main.scss */
+.article-intro {
+  font-size: 14px;
+  line-height: 17px;
+  margin-bottom: 11px;
+}
+
+/* line 165, ../src/partials/_main.scss */
+.search .article-intro {
+  padding: 0 10px;
+}
+
+/* line 168, ../src/partials/_main.scss */
+.article-intro img.fl {
+  margin-right: 12px;
+}
+
+/* line 171, ../src/partials/_main.scss */
+.has-image .float-wrapper {
+  width: 230px;
+  float: left;
+}
+
+/* line 175, ../src/partials/_main.scss */
+.col-3 .box .has-image .float-wrapper {
+  width: 158px;
+}
+
+/* line 178, ../src/partials/_main.scss */
+.category .main-article h1 {
+  font-size: 33px;
+  line-height: 33px;
+}
+
+/* line 182, ../src/partials/_main.scss */
+.faded, a .faded {
+  color: #818084;
+}
+
+/* line 185, ../src/partials/_main.scss */
+.article-intro .faded {
+  text-transform: uppercase;
+}
+
+/* line 188, ../src/partials/_main.scss */
+a.iconed {
+  padding-left: 18px;
+}
+
+/* line 191, ../src/partials/_main.scss */
+.facebook {
+  background: url(../images/icon-facebook.gif) no-repeat;
+}
+
+/* line 194, ../src/partials/_main.scss */
+.print {
+  background: url(../images/icon-print.gif) no-repeat;
+}
+
+/* line 197, ../src/partials/_main.scss */
+.mail {
+  background: url(../images/icon-mail.gif) no-repeat;
+}
+
+/* line 201, ../src/partials/_main.scss */
+a.arrow {
+  background: url('../images/themes/blue/icon-raquo.png?1291971465') no-repeat left 6px;
+  padding-left: 11px;
+  font-size: 14px;
+  color: #547a8c;
+}
+/* line 206, ../src/partials/_main.scss */
+a.big-arrow {
+  background: url(../images/temalink-arrow.jpg) no-repeat 4px center;
+  padding-left: 27px;
+  font-size: 13px;
+}
+
+/* line 211, ../src/partials/_main.scss */
+.dotted-line {
+  background: url(../images/dotted-line-bg.gif) repeat-x;
+  height: 1px;
+  line-height: 1px;
+  font-size: 1px;
+  margin-bottom: 12px;
+}
+
+/* line 218, ../src/partials/_main.scss */
+.line {
+  border-top: 1px solid #dfdede;
+  height: 1px;
+  line-height: 1px;
+  font-size: 1px;
+  margin-bottom: 12px;
+}
+
+/* line 226, ../src/partials/_main.scss */
+.one-line .faded {
+  margin-right: 6px;
+}
+/* line 228, ../src/partials/_main.scss */
+.one-line a {
+  color: #547a8c;
+}
+
+/* line 231, ../src/partials/_main.scss */
+.splitter {
+  height: 5px;
+  background: #d6d6d8;
+  margin-left: 9px;
+  width: 794px;
+}
+
+/* line 239, ../src/partials/_main.scss */
+.mb, .mbannonse {
+  margin-bottom: 12px;
+}
+
+/* line 242, ../src/partials/_main.scss */
+.mb3 {
+  margin-bottom: 3px;
+}
+
+/* line 245, ../src/partials/_main.scss */
+.big-top-border {
+  border-top: 7px solid #ced8dd;
+}
+
+/* line 248, ../src/partials/_main.scss */
+.news-list {
+  padding-bottom: 7px;
+}
+/* line 250, ../src/partials/_main.scss */
+.news-list h1 {
+  background: url(../images/front-box-header-bg.gif) repeat-x;
+  height: 32px;
+  line-height: 32px;
+  font-size: 22px;
+  margin-bottom: 7px;
+}
+
+/* line 257, ../src/partials/_main.scss */
+.header-box-icon {
+  position: relative;
+  top: 10px;
+}
+
+/* line 262, ../src/partials/_main.scss */
+.news-list h1 .padder {
+  padding: 0px 6px;
+}
+/* line 264, ../src/partials/_main.scss */
+.news-list p {
+  font-size: 11px;
+  line-height: 12px;
+}
+/* line 267, ../src/partials/_main.scss */
+.news-list .article-intro {
+  margin-bottom: 11px;
+}
+/* line 269, ../src/partials/_main.scss */
+.news-list .dotted-line {
+  margin-bottom: 6px;
+}
+/* line 271, ../src/partials/_main.scss */
+.news-list .padder {
+  padding: 0px 4px;
+}
+/* line 273, ../src/partials/_main.scss */
+.news-list h3 {
+  font-size: 15px;
+  margin-bottom: 6px;
+}
+/* line 276, ../src/partials/_main.scss */
+.news-list h4 {
+  font-size: 11px;
+  margin-bottom: 4px;
+  line-height: 12px;
+}
+/* line 281, ../src/partials/_main.scss */
+.news-list h3 a, .news-list h4 a {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+/* line 285, ../src/partials/_main.scss */
+.col-3 .shadow-wrapper {
+  padding-bottom: 4px;
+  background: url(../images/box-col3-bottom.gif) no-repeat bottom;
+  margin-bottom: 9px;
+}
+
+/* line 290, ../src/partials/_main.scss */
+.col-1-2-3 .shadow-wrapper {
+  padding-bottom: 4px;
+  background: url(../images/box-col123-bottom.gif) no-repeat bottom;
+  margin-bottom: 9px;
+}
+
+/* line 297, ../src/partials/_main.scss */
+.shadow-wrapper .box {
+  margin-bottom: 0;
+}
+
+/* line 303, ../src/partials/_main.scss */
+.col-1-2 .box h2 {
+  background: url(../images/box-header-wide-bg.jpg) no-repeat;
+}
+
+/* line 310, ../src/partials/_main.scss */
+.forum .newpost {
+  padding: 20px 10px;
+}
+/* line 312, ../src/partials/_main.scss */
+.forum .newpost .textinput {
+  border: 1px solid #909ca7;
+  width: 358px;
+}
+/* line 315, ../src/partials/_main.scss */
+.forum .newpost input.textinput {
+  height: 20px;
+  margin-bottom: 10px;
+}
+/* line 318, ../src/partials/_main.scss */
+.forum .newpost textarea.textinput {
+  height: 100px;
+}
+
+/* line 321, ../src/partials/_main.scss */
+.vat {
+  vertical-align: top;
+}
+
+/* line 325, ../src/partials/_main.scss */
+.forum .newpost label {
+  width: 77px;
+  position: relative;
+  top: 7px;
+  display: block;
+  float: left;
+  font-size: 12px;
+}
+/* line 332, ../src/partials/_main.scss */
+.forum .newpost .buttons {
+  padding-top: 10px;
+  position: relative;
+}
+/* line 335, ../src/partials/_main.scss */
+.forum .newpost .buttons input.button {
+  width: 100px;
+  font-size: 10px;
+}
+
+/* line 339, ../src/partials/_main.scss */
+.proffnett h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  color: #3677a5;
+  text-transform: uppercase;
+  padding-left: 10px;
+  border: 1px solid #dcdbdb;
+  height: 30px;
+  line-height: 30px;
+}
+
+/* line 350, ../src/partials/_main.scss */
+.events-table {
+  border: 1px solid #dfdede;
+  width: 100%;
+}
+/* line 353, ../src/partials/_main.scss */
+.events-table th {
+  padding: 4px;
+}
+/* line 356, ../src/partials/_main.scss */
+.events-table td.description-cell {
+  padding: 5px 0px 10px 14px;
+}
+/* line 358, ../src/partials/_main.scss */
+.events-table td.event-data-cell {
+  padding: 5px 10px 5px 10px;
+}
+/* line 360, ../src/partials/_main.scss */
+.events-table td.event-data-cell img.logo {
+  margin-bottom: 8px;
+}
+/* line 362, ../src/partials/_main.scss */
+.events-table td.description-cell {
+  width: 275px;
+}
+/* line 364, ../src/partials/_main.scss */
+.events-table td.description-cell .description {
+  border-right: 1px solid #dfdede;
+  padding-bottom: 7px;
+  padding-right: 10px;
+}
+/* line 368, ../src/partials/_main.scss */
+.events-table p {
+  margin-bottom: 10px;
+}
+/* line 370, ../src/partials/_main.scss */
+.events-table td {
+  line-height: 17px;
+  vertical-align: top;
+}
+/* line 373, ../src/partials/_main.scss */
+.events-table td.description-cell .description a {
+  font-size: 11px;
+}
+/* line 375, ../src/partials/_main.scss */
+.events-table .header {
+  background: #f6f5f5;
+  padding: 9px;
+}
+/* line 378, ../src/partials/_main.scss */
+.events-table .header .type {
+  font-size: 11px;
+  line-height: 14px;
+}
+/* line 381, ../src/partials/_main.scss */
+.events-table .header h3 {
+  font-size: 18px;
+  color: #2b2b2b;
+}
+
+/* line 385, ../src/partials/_main.scss */
+.proffnett h2 img {
+  padding-top: 8px;
+}
+
+/* line 388, ../src/partials/_main.scss */
+.box .box-content {
+  /*	background:url(../images/box-content-bg.jpg) repeat-x bottom; */
+}
+
+/* line 391, ../src/partials/_main.scss */
+.proffnett .box-content {
+  color: #2a597a;
+  background: url(../images/proffnett-content-bg.jpg) repeat-x bottom;
+}
+/* line 394, ../src/partials/_main.scss */
+.proffnett .box-content .pn-content {
+  font-size: 11px;
+}
+/* line 396, ../src/partials/_main.scss */
+.proffnett .box-content .pn-content a {
+  color: #2a597a;
+}
+/* line 397, ../src/partials/_main.scss */
+.proffnett .box-content .pn-content a.change-profile {
+  position: relative;
+  top: 3px;
+}
+/* line 401, ../src/partials/_main.scss */
+.proffnett .box-content .pn-content p {
+  margin-bottom: 10px;
+}
+/* line 404, ../src/partials/_main.scss */
+.proffnett .box-content .pn-content .login input.ti {
+  font-size: 11px;
+  width: 110px;
+}
+/* line 407, ../src/partials/_main.scss */
+.proffnett .box-content .pn-content .login td {
+  line-height: 20px;
+  vertical-align: top;
+  padding: 0 0 5px 3px;
+}
+/* line 411, ../src/partials/_main.scss */
+.proffnett .box-content .pn-content .login table {
+  margin-bottom: 0;
+}
+/* line 414, ../src/partials/_main.scss */
+.proffnett .box-content .pn-content .login .loginbtn {
+  margin-right: -3px;
+}
+/* line 416, ../src/partials/_main.scss */
+.proffnett .box-content .pn-content .login td.no-padding-right {
+  padding-right: 0;
+}
+/* line 418, ../src/partials/_main.scss */
+.proffnett .box-content .pn-content .login #remember {
+  margin: 0 3px 0 0;
+  padding: 0;
+  position: relative;
+  top: 2px;
+}
+
+/* line 424, ../src/partials/_main.scss */
+.box h2.icon-header {
+  padding-left: 4px;
+}
+
+/* line 427, ../src/partials/_main.scss */
+.col-1-2-3 .box h2.icon-header {
+  padding-left: 9px;
+}
+
+/* line 430, ../src/partials/_main.scss */
+.box h2 a.more-button {
+  display: block;
+  background: url(../images/more-btn-bg.gif) repeat-x center;
+  text-transform: none;
+  font-size: 11px;
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #4782ac;
+  margin-right: 11px;
+}
+
+/* line 440, ../src/partials/_main.scss */
+.col-1-2-3 .box h2 a.more-button {
+  margin-right: 9px;
+}
+
+/* line 444, ../src/partials/_main.scss */
+.box .article-intro img.fl {
+  margin-right: 6px;
+  margin-bottom: 10px;
+}
+/* line 447, ../src/partials/_main.scss */
+.box h2 a.more-button span {
+  display: block;
+}
+/* line 449, ../src/partials/_main.scss */
+.box h2 a.more-button span.leftside {
+  background: url(../images/more-btn-left.gif) no-repeat left center;
+  padding-left: 8px;
+}
+/* line 452, ../src/partials/_main.scss */
+.box h2 a.more-button span.rightside {
+  background: url(../images/more-btn-right.gif) no-repeat right center;
+  padding-right: 18px;
+}
+/* line 455, ../src/partials/_main.scss */
+.box .search {
+  padding: 10px 0;
+  display: block;
+}
+/* line 458, ../src/partials/_main.scss */
+.box .search .searchfield {
+  float: left;
+  float: left;
+}
+/* line 461, ../src/partials/_main.scss */
+.box .search .searchbutton {
+  float: left;
+}
+/* line 463, ../src/partials/_main.scss */
+.box .search .searchfield {
+  font-size: 11px;
+  position: relative;
+  top: 1px;
+  margin-right: 10px;
+  width: 188px;
+}
+/* line 470, ../src/partials/_main.scss */
+.box h2.icon-header .icon-holder {
+  padding-left: 30px;
+}
+/* line 472, ../src/partials/_main.scss */
+.box h2.icon-header .video {
+  background: url(../images/header-icon-video.gif) no-repeat 0px 5px;
+}
+/* line 474, ../src/partials/_main.scss */
+.box h2.icon-header .bilder {
+  background: url(../images/header-icon-galleri.gif) no-repeat 0px 3px;
+}
+/* line 476, ../src/partials/_main.scss */
+.box h2.icon-header .forumpost {
+  background: url(../images/forumpost-icon.gif) no-repeat 6px 10px;
+}
+
+/* line 482, ../src/partials/_main.scss */
+.forum .breadcrumb {
+  margin-bottom: 10px;
+}
+/* line 484, ../src/partials/_main.scss */
+.forum .breadcrumb a {
+  margin-right: 8px;
+}
+
+/* line 487, ../src/partials/_main.scss */
+h3 a {
+  text-decoration: underline;
+}
+
+/* line 492, ../src/partials/_main.scss */
+.forum table.topictable {
+  width: 100%;
+  line-height: 13px;
+}
+/* line 495, ../src/partials/_main.scss */
+.forum table.threadtable {
+  width: 100%;
+  line-height: 13px;
+  margin-bottom: 10px;
+}
+/* line 499, ../src/partials/_main.scss */
+.forum .buttons {
+  float: right;
+  margin-bottom: 8px;
+}
+/* line 502, ../src/partials/_main.scss */
+.forum .nomargin {
+  margin: 0;
+}
+/* line 504, ../src/partials/_main.scss */
+.forum .buttons input {
+  font-size: 11px;
+}
+/* line 507, ../src/partials/_main.scss */
+.forum th.theme-col, .forum th.answer-col, .forum th.by-col, .forum th.lastpost-col, .forum th.post-col {
+  background: transparent url(../images/box-header-gradient.jpg) repeat-x scroll 0 0;
+  height: 30px;
+  vertical-align: middle;
+  font-size: 12px;
+}
+/* line 512, ../src/partials/_main.scss */
+.forum .theme-col {
+  width: 169px;
+  border-left: 1px solid #dcdbdb;
+}
+/* line 515, ../src/partials/_main.scss */
+.forum .answer-col {
+  width: 41px;
+  border-left: 1px solid #dcdbdb;
+}
+/* line 518, ../src/partials/_main.scss */
+.forum .by-col {
+  width: 136px;
+  border-left: 1px solid #dcdbdb;
+  width: 136px;
+  border-left: 1px solid #dcdbdb;
+}
+/* line 523, ../src/partials/_main.scss */
+.forum .threadtable .by-col {
+  width: 99px;
+}
+/* line 525, ../src/partials/_main.scss */
+.forum .lastpost-col {
+  width: 107px;
+  border-left: 1px solid #dcdbdb;
+  border-right: 1px solid #dcdbdb;
+}
+/* line 529, ../src/partials/_main.scss */
+.forum .post-col {
+  border-left: 1px solid #dcdbdb;
+  border-right: 1px solid #dcdbdb;
+}
+/* line 532, ../src/partials/_main.scss */
+.forum td.bl {
+  border-left: 1px solid #dcdbdb;
+}
+/* line 535, ../src/partials/_main.scss */
+.forum .threadtable td {
+  border-bottom: 1px solid #dcdbdb;
+}
+/* line 537, ../src/partials/_main.scss */
+.forum .threadtable .post {
+  border-left: 1px solid #dcdbdb;
+  /*	border-right:1px solid #dcdbdb; */
+  padding: 4px;
+  font-size: 12px;
+  line-height: 13px;
+}
+/* line 543, ../src/partials/_main.scss */
+.forum .threadtable .post p, .forum .threadtable .post h3 {
+  margin-bottom: 10px;
+}
+/* line 545, ../src/partials/_main.scss */
+.forum .threadtable .post .timestamp {
+  background: #ebebeb;
+  font-size: 11px;
+  height: 39px;
+  line-height: 39px;
+  padding-left: 10px;
+}
+/* line 551, ../src/partials/_main.scss */
+.forum .threadtable .post .timestamp input {
+  font-size: 11px;
+  position: relative;
+  top: 9px;
+  right: 10px;
+}
+/* line 556, ../src/partials/_main.scss */
+.forum .threadtable .post .quote {
+  background: url(../images/quote-marker.gif) no-repeat 10px 0px;
+  padding-left: 44px;
+  font-size: 11px;
+}
+/* line 560, ../src/partials/_main.scss */
+.forum .threadtable .post .quote .content {
+  background: #f3f3f3;
+  padding: 0px 10px;
+  margin-bottom: 10px;
+  color: #1b1c20;
+}
+/* line 565, ../src/partials/_main.scss */
+.forum .threadtable .post .quote .content h4 {
+  padding: 10px 0 5px 0;
+  font-size: 11px;
+  color: #1b1c20;
+}
+/* line 570, ../src/partials/_main.scss */
+.forum table.topictable th, .forum table.threadtable th {
+  padding: 0 10px;
+}
+/* line 572, ../src/partials/_main.scss */
+.forum table.topictable td, .forum table.threadtable td {
+  padding: 10px;
+}
+/* line 575, ../src/partials/_main.scss */
+.forum table.topictable tr.dark {
+  background: #f6f5f5;
+}
+/* line 577, ../src/partials/_main.scss */
+.forum table.topictable a {
+  font-weight: bold;
+}
+/* line 579, ../src/partials/_main.scss */
+.forum table.topictable a.read {
+  font-weight: normal;
+}
+
+/* line 585, ../src/partials/_main.scss */
+.forum .box-content .article-intro p {
+  margin-bottom: 10px;
+  font-size: 12px;
+  line-height: 16px;
+}
+/* line 589, ../src/partials/_main.scss */
+.forum .box-content .article-intro .forumcat-info {
+  font-size: 11px;
+}
+
+/* line 593, ../src/partials/_main.scss */
+.box .black {
+  background: black;
+  color: white;
+  font-size: 11px;
+  text-decoration: none;
+}
+/* line 598, ../src/partials/_main.scss */
+.box .black a {
+  background: black;
+  color: white;
+  font-size: 11px;
+  text-decoration: none;
+}
+/* line 603, ../src/partials/_main.scss */
+.box .black a:hover {
+  text-decoration: underline;
+}
+/* line 605, ../src/partials/_main.scss */
+.box .box-content .padder {
+  padding: 4px 10px 10px;
+}
+
+/* line 608, ../src/partials/_main.scss */
+.image-box .box-content .padder {
+  padding: 0 3px 3px;
+}
+
+/* line 612, ../src/partials/_main.scss */
+.box .box-content .pb {
+  padding-bottom: 10px;
+}
+/* line 614, ../src/partials/_main.scss */
+.box .black .padder {
+  padding: 10px;
+  margin-top: 3px;
+}
+/* line 617, ../src/partials/_main.scss */
+.box .gallery .padder {
+  padding: 0;
+  padding-top: 3px;
+}
+
+/* line 621, ../src/partials/_main.scss */
+.gallery-table {
+  width: 100%;
+}
+
+/* line 625, ../src/partials/_main.scss */
+.col-1-2-3 .gallery .padder {
+  padding: 9px;
+}
+/* line 627, ../src/partials/_main.scss */
+.col-1-2-3 .gallery .gradient {
+  /*	background:url(../images/gallery-row-bg.jpg) repeat-x; */
+}
+/* line 629, ../src/partials/_main.scss */
+.col-1-2-3 .gallery .bt {
+  border-top: 1px solid #dfdede;
+}
+
+/* line 632, ../src/partials/_main.scss */
+.col-3 .gallery-table td.imgcell {
+  width: 50%;
+  background: #373535;
+  vertical-align: middle;
+  text-align: center;
+}
+
+/* line 639, ../src/partials/_main.scss */
+.col-1-2-3 .gallery-table td.imgcell {
+  width: 137px;
+  background: #373535;
+  vertical-align: middle;
+  text-align: center;
+}
+/* line 644, ../src/partials/_main.scss */
+.col-1-2-3 .gallery-table td.sepcell {
+  width: 13px;
+}
+
+/* line 647, ../src/partials/_main.scss */
+.gallery-table td.img-desc-cell {
+  line-height: 11px;
+  font-size: 11px;
+  padding: 5px;
+}
+
+/* line 652, ../src/partials/_main.scss */
+.col-1-2-3 .gallery-table td.img-desc-cell {
+  line-height: 13px;
+  padding: 5px 0;
+}
+
+/* line 656, ../src/partials/_main.scss */
+.gallery-table td.img-desc-cell a {
+  text-decoration: none;
+}
+
+/* line 659, ../src/partials/_main.scss */
+.col-1-2-3 .gallery-table td.img-desc-cell a {
+  font-weight: bold;
+}
+
+/* line 663, ../src/partials/_main.scss */
+.gallery-table td.img-desc-cell a:hover {
+  text-decoration: underline;
+}
+/* line 665, ../src/partials/_main.scss */
+.gallery-table td.leftside {
+  border-right: 4px solid white;
+}
+/* line 667, ../src/partials/_main.scss */
+.gallery-table td.rightside {
+  border-left: 4px solid white;
+}
+
+/* line 670, ../src/partials/_main.scss */
+.events {
+  font-size: 11px;
+}
+/* line 671, ../src/partials/_main.scss */
+.events h4 {
+  margin-bottom: 4px;
+  font-size: 11px;
+  color: #1b1c20;
+}
+
+/* line 677, ../src/partials/_main.scss */
+.box .box-content .events .line {
+  margin: 0;
+  padding-bottom: 12px;
+}
+
+/* line 684, ../src/partials/_main.scss */
+.box .box-content .list {
+  padding: 0;
+}
+/* line 685, ../src/partials/_main.scss */
+.box .box-content .list .article-intro {
+  border-bottom: 1px solid #dfdede;
+  padding: 10px;
+}
+/* line 688, ../src/partials/_main.scss */
+.box .box-content .list .dark {
+  background: #f5f4f4;
+}
+/* line 691, ../src/partials/_main.scss */
+.box .forumpost-intro {
+  font-size: 11px;
+  border-bottom: 1px solid #dfdede;
+  padding: 8px 12px 10px 10px;
+}
+/* line 695, ../src/partials/_main.scss */
+.box .forumpost-intro .post-data {
+  padding: 0 0 8px 0;
+}
+/* line 697, ../src/partials/_main.scss */
+.box .forumpost-intro .post-data .author {
+  float: left;
+  background: url(../images/forumpost-icon.gif) no-repeat left 2px;
+  padding-left: 19px;
+}
+/* line 701, ../src/partials/_main.scss */
+.box .forumpost-intro .post-data .date {
+  float: right;
+  line-height: 14px;
+}
+/* line 704, ../src/partials/_main.scss */
+.box .forumpost-intro .post-data .datebtn-leftside, .box .forumpost-intro .post-data .datebtn-rightside, .box .forumpost-intro .post-data .datebtn {
+  float: right;
+  height: 14px;
+}
+/* line 707, ../src/partials/_main.scss */
+.box .forumpost-intro .post-data .datebtn-leftside {
+  background: url(../images/datebtn-right.gif) no-repeat left center;
+  width: 2px;
+}
+/* line 710, ../src/partials/_main.scss */
+.box .forumpost-intro .post-data .datebtn-rightside {
+  background: url(../images/datebtn-left.gif) no-repeat left center;
+  width: 2px;
+}
+/* line 713, ../src/partials/_main.scss */
+.box .forumpost-intro .post-data .datebtn {
+  background: url(../images/datebtn-bg.gif) repeat-x;
+}
+/* line 715, ../src/partials/_main.scss */
+.box .forumpost-intro .post-data .datebtn a {
+  color: white;
+  text-decoration: none;
+  padding: 0 4px;
+}
+/* line 719, ../src/partials/_main.scss */
+.box .forumpost-intro .topic {
+  margin-bottom: 5px;
+}
+/* line 721, ../src/partials/_main.scss */
+.box .forumpost-intro .topic a {
+  color: #3677a5;
+}
+/* line 723, ../src/partials/_main.scss */
+.box .forumpost-intro .line {
+  margin: 0;
+  padding-bottom: 5px;
+}
+/* line 726, ../src/partials/_main.scss */
+.box .forumpost-intro .post {
+  /*padding: 0 0 8px 0; */
+}
+/* line 728, ../src/partials/_main.scss */
+.box .forumpost-intro .post .unread {
+  float: right;
+  background: url(../images/envelope-icon.gif) no-repeat right 2px;
+  padding-right: 16px;
+  margin-right: 2px;
+}
+
+/* line 734, ../src/partials/_main.scss */
+.thick-bordered-box {
+  margin-bottom: 7px;
+}
+
+/* line 737, ../src/partials/_main.scss */
+#content .thick-bordered-box .padder {
+  padding-top: 7px;
+}
+
+/* line 741, ../src/partials/_main.scss */
+.thick-bordered-box h3 {
+  font-size: 11px;
+  font-weight: bold;
+  margin-bottom: 7px;
+  color: #3f637b;
+}
+/* line 746, ../src/partials/_main.scss */
+.thick-bordered-box .mid-border {
+  border: 7px solid #ced8dd;
+  border-bottom: none;
+  border-top: none;
+}
+/* line 750, ../src/partials/_main.scss */
+.thick-bordered-box .box-content {
+  background: url(../images/bordered-box-bg.jpg) no-repeat;
+  min-height: 97px;
+  height: auto !important;
+  height: 97px;
+  color: #3f637b;
+  font-size: 11px;
+}
+/* line 757, ../src/partials/_main.scss */
+.thick-bordered-box .box-content p {
+  margin-bottom: 13px;
+}
+/* line 759, ../src/partials/_main.scss */
+.thick-bordered-box .box-content label {
+  width: 50px;
+  display: block;
+  float: left;
+  line-height: 21px;
+  overflow: hidden;
+}
+/* line 765, ../src/partials/_main.scss */
+.thick-bordered-box .box-content .login-wrapper {
+  line-height: 19px;
+}
+/* line 767, ../src/partials/_main.scss */
+.thick-bordered-box .box-content .login-wrapper .login-btn {
+  margin-left: 12px;
+}
+/* line 769, ../src/partials/_main.scss */
+.thick-bordered-box .box-content .padder {
+  padding: 8px 14px;
+}
+/* line 771, ../src/partials/_main.scss */
+.thick-bordered-box .box-content a {
+  color: #3f637b;
+}
+/* line 773, ../src/partials/_main.scss */
+.thick-bordered-box .box-content .label {
+  margin-bottom: 4px;
+}
+/* line 775, ../src/partials/_main.scss */
+.thick-bordered-box .box-content select {
+  width: 222px;
+  border: 1px solid #7f9db9;
+  padding: 1px;
+  margin-bottom: 6px;
+}
+/* line 781, ../src/partials/_main.scss */
+.thick-bordered-box .box-content input.search {
+  width: 220px;
+}
+/* line 783, ../src/partials/_main.scss */
+.thick-bordered-box .box-content input.searchbtn {
+  position: relative;
+  top: 1px;
+}
+/* line 786, ../src/partials/_main.scss */
+.thick-bordered-box .top-border, .thick-bordered-box .bottom-border {
+  line-height: 7px;
+  font-size: 7px;
+  height: 7px;
+}
+/* line 790, ../src/partials/_main.scss */
+.thick-bordered-box .top-border {
+  background: url(../images/thicklined-box-top.gif) no-repeat;
+}
+/* line 792, ../src/partials/_main.scss */
+.thick-bordered-box .bottom-border {
+  background: url(../images/thicklined-box-bottom.gif) no-repeat;
+}
+
+/* line 797, ../src/partials/_main.scss */
+#content .ad-container .job .padder {
+  padding: 6px 6px;
+}
+
+/* line 801, ../src/partials/_main.scss */
+.ad-container .col {
+  float: left;
+  width: 150px;
+  overflow: hidden;
+}
+/* line 805, ../src/partials/_main.scss */
+.ad-container .mr {
+  margin-right: 13px;
+}
+/* line 807, ../src/partials/_main.scss */
+.ad-container .ad {
+  margin-bottom: 9px;
+}
+
+/* line 810, ../src/partials/_main.scss */
+.ad-box {
+  background: url(../images/annonser-indicator.gif) no-repeat center 5px;
+  background-color: #ccd7dc;
+  padding: 15px 7px 7px 7px;
+  margin-bottom: 11px;
+}
+/* line 815, ../src/partials/_main.scss */
+.ad-box .ad {
+  margin-bottom: 7px;
+}
+
+/* line 818, ../src/partials/_main.scss */
+.ad-left-indicator {
+  background: url(../images/annonser-indicator-left.gif) center left no-repeat;
+  padding-left: 9px;
+  margin-left: -9px;
+}
+
+/* line 823, ../src/partials/_main.scss */
+.jobs-list {
+  padding-bottom: 7px;
+}
+/* line 825, ../src/partials/_main.scss */
+.jobs-list h1 {
+  background: url(../images/front-box-header-bg.gif) repeat-x;
+  height: 32px;
+  line-height: 32px;
+  font-size: 22px;
+  margin-bottom: 3px;
+}
+/* line 831, ../src/partials/_main.scss */
+.jobs-list h1 .padder {
+  padding: 0px 6px;
+}
+/* line 833, ../src/partials/_main.scss */
+.jobs-list p {
+  font-size: 11px;
+  line-height: 12px;
+}
+/* line 836, ../src/partials/_main.scss */
+.jobs-list .article-intro {
+  margin-bottom: 11px;
+}
+/* line 838, ../src/partials/_main.scss */
+.jobs-list .dotted-line {
+  margin-bottom: 0px;
+}
+
+/* line 841, ../src/partials/_main.scss */
+#content .job .padder {
+  padding: 8px 6px;
+}
+
+/* line 845, ../src/partials/_main.scss */
+.jobs-list h3 {
+  font-size: 15px;
+  margin-bottom: 6px;
+}
+/* line 848, ../src/partials/_main.scss */
+.jobs-list h4 {
+  font-size: 11px;
+  margin-bottom: 4px;
+  line-height: 12px;
+}
+/* line 853, ../src/partials/_main.scss */
+.jobs-list h3 a, .jobs-list h4 a {
+  text-decoration: underline;
+  font-weight: bold;
+}
+/* line 856, ../src/partials/_main.scss */
+.jobs-list a.icon {
+  padding-left: 23px;
+}
+/* line 858, ../src/partials/_main.scss */
+.jobs-list .job {
+  font-size: 11px;
+  color: #3f637b;
+}
+/* line 861, ../src/partials/_main.scss */
+.jobs-list .job a {
+  font-weight: bold;
+  margin-right: 5px;
+  display: block;
+  line-height: 18px;
+  float: left;
+}
+/* line 867, ../src/partials/_main.scss */
+.jobs-list .job span {
+  display: block;
+  line-height: 18px;
+  float: left;
+}
+/* line 871, ../src/partials/_main.scss */
+.jobs-list .dark {
+  background: #f7f8f8;
+}
+
+/* line 874, ../src/partials/_main.scss */
+a.pdf {
+  background: url(../images/icon-pdf-small.jpg) no-repeat left center;
+}
+
+/* line 879, ../src/partials/_main.scss */
+.fl .article-image {
+  margin-right: 12px;
+  width: 187px;
+}
+
+/* line 883, ../src/partials/_main.scss */
+.fr .article-image {
+  margin-left: 12px;
+  width: 187px;
+}
+
+/* line 887, ../src/partials/_main.scss */
+.article-image .caption {
+  color: #1b1c20;
+  font-size: 12px;
+  line-height: 16px;
+  padding: 7px;
+}
+
+/* line 893, ../src/partials/_main.scss */
+.leadin {
+  margin-bottom: 19px;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+/* line 900, ../src/partials/_main.scss */
+.assets {
+  font-size: 12px;
+  line-height: 17px;
+  margin-bottom: 12px;
+}
+
+/* line 905, ../src/partials/_main.scss */
+.searchresult {
+  padding: 10px 0px;
+  margin-bottom: 10px;
+  background: #f7f8f8;
+  border-bottom: 1px solid #dfdede;
+  line-height: 16px;
+}
+
+/* line 912, ../src/partials/_main.scss */
+.video-container {
+  border: 1px solid #dfdede;
+}
+
+/* line 915, ../src/partials/_main.scss */
+.searchinfo {
+  width: 297px;
+  text-align: center;
+  float: left;
+}
+
+/* line 921, ../src/partials/_main.scss */
+.searchresult a {
+  text-decoration: none;
+}
+/* line 923, ../src/partials/_main.scss */
+.searchresult a:hover {
+  text-decoration: underline;
+}
+/* line 925, ../src/partials/_main.scss */
+.searchresult a.next {
+  margin-left: 10px;
+  margin-right: 2px;
+}
+/* line 928, ../src/partials/_main.scss */
+.searchresult a.prev {
+  margin-right: 10px;
+  margin-left: 2px;
+}
+/* line 931, ../src/partials/_main.scss */
+.searchresult .next-wrapper {
+  float: right;
+  font-weight: bold;
+}
+/* line 934, ../src/partials/_main.scss */
+.searchresult .prev-wrapper {
+  float: left;
+  font-weight: bold;
+}
+
+/* line 938, ../src/partials/_main.scss */
+.box .nobg {
+  background: none;
+}
+
+/* line 943, ../src/partials/_main.scss */
+.sdz {
+  text-align: center;
+  background: #373535;
+  height: 100px;
+  vertical-align: middle;
+  display: table-cell;
+}
+
+/* line 950, ../src/partials/_main.scss */
+.type-2, .type-3 {
+  border-bottom: 0;
+  padding: 0 2px;
+  margin-bottom: 0;
+  /*	padding:0;
+   *	border:none;
+   *	color:#2e5775; */
+}
+
+/* line 958, ../src/partials/_main.scss */
+.type-2 h2, .type-3 h2 {
+  margin: 0 0 0 -2px;
+}
+
+/* line 962, ../src/partials/_main.scss */
+.col-3 .type-2 h2, .col-3 .type-3 h2 {
+  border: none;
+  /*	background:url(../images/box-type2-header-bg.jpg) no-repeat; */
+  color: #2b2b2b;
+  /*	font-size:18px;
+   *	font-family:"Times New Roman", Times, serif; */
+}
+
+/* line 969, ../src/partials/_main.scss */
+.type-2 .box-content h3, .type-3 .box-content h3 {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #1b1c20;
+  line-height: 22px;
+}
+
+/* line 975, ../src/partials/_main.scss */
+.type-2 .box-content h3.georgia, .type-3 .box-content h3.georgia {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+/* line 978, ../src/partials/_main.scss */
+.type-2 .box-content p, .type-3 .box-content p {
+  font-size: 12px;
+  color: #1b1c20;
+  margin-bottom: 12px;
+}
+
+/* line 984, ../src/partials/_main.scss */
+.type-2 .box-content .article-intro h3 a {
+  /*	color:#131313; */
+}
+/* line 986, ../src/partials/_main.scss */
+.type-2 .box-content a.arrow {
+  margin-bottom: 6px;
+}
+
+/* line 989, ../src/partials/_main.scss */
+.type-3 .box-content a.arrow {
+  margin-bottom: 6px;
+}
+
+/* line 992, ../src/partials/_main.scss */
+.type-2 .has-image .image-wrapper, .type-3 .has-image .image-wrapper {
+  float: left;
+  width: 110px;
+  padding-top: 3px;
+}
+
+/* line 997, ../src/partials/_main.scss */
+.type-2 .has-image .content-wrapper, .type-3 .has-image .content-wrapper {
+  float: left;
+  width: 160px;
+}
+
+/* line 1001, ../src/partials/_main.scss */
+.type-2 .box-content {
+  background: url(../images/type-2-bg.jpg) repeat-x bottom;
+  padding-bottom: 13px;
+}
+
+/* line 1005, ../src/partials/_main.scss */
+.type-3 .box-content {
+  background: url(../images/type-3-bg.jpg) repeat-x bottom;
+  border-left: 1px solid #e1e1e0;
+  border-right: 1px solid #e1e1e0;
+  padding-bottom: 6px;
+}
+
+/* line 1011, ../src/partials/_main.scss */
+.type-2 .box-content .padder, .type-3 .box-content .padder {
+  padding: 5px 5px 0 5px;
+}
+
+/* line 1014, ../src/partials/_main.scss */
+.box-type-2-footer {
+  margin: 0;
+  width: auto;
+  height: 17px;
+  background: url(../images/type-2-footer.gif) no-repeat;
+  margin-bottom: 10px;
+}
+
+/* line 1023, ../src/partials/_main.scss */
+.box .box-content .one-line {
+  margin-bottom: 0.5em;
+}
+
+/* line 1027, ../src/partials/_main.scss */
+.no-bg {
+  background: none !important;
+}
+
+/* line 1030, ../src/partials/_main.scss */
+.googlemap, .map-container {
+  margin-bottom: 10px;
+}
+
+/* line 1, ../src/partials/_bottom.scss */
+#content .footer {
+  width: 1134px;
+  color: #0a0a0a;
+  font-size: 10px;
+  line-height: 12px;
+  font-family: arial, helvetica;
+  padding-bottom: 7px;
+  background: url(../images/themes/footer_bg.png) no-repeat;
+}
+/* line 10, ../src/partials/_bottom.scss */
+#content .footer .footer-color {
+  display: block;
+  height: 100%;
+  padding-top: 20px;
+}
+/* line 16, ../src/partials/_bottom.scss */
+#content .footer h3 {
+  font-size: 11px;
+  font-family: arial, helvetica;
+  text-transform: uppercase;
+  color: #0a0a0a;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+/* line 24, ../src/partials/_bottom.scss */
+#content .footer a {
+  color: #0a0a0a;
+}
+/* line 27, ../src/partials/_bottom.scss */
+#content .footer ul {
+  margin-bottom: 20px;
+  margin-right: 40px;
+  float: left;
+  width: 157px;
+  padding: 0px;
+}
+/* line 34, ../src/partials/_bottom.scss */
+#content .footer ul.last {
+  margin-right: 0px;
+}
+/* line 39, ../src/partials/_bottom.scss */
+#content .footer li {
+  margin-bottom: 5px;
+  padding-bottom: 7px;
+  list-style: none;
+  border-bottom: 1px dotted #acb2b6;
+  float: left;
+  display: block;
+  clear: both;
+  width: 100%;
+}
+/* line 11, ../../../../../Ruby/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/lists/_bullets.scss */
+#content .footer li li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0px;
+}
+/* line 49, ../src/partials/_bottom.scss */
+#content .footer p {
+  margin-bottom: 5px;
+}
+/* line 52, ../src/partials/_bottom.scss */
+#content .footer .col-1 {
+  float: left;
+  padding-top: 16px;
+  width: 775px;
+}
+/* line 57, ../src/partials/_bottom.scss */
+#content .footer .col-1 h3 {
+  font-size: 13px;
+  margin-bottom: 15px;
+}
+/* line 61, ../src/partials/_bottom.scss */
+#content .footer .col-1 h3 a {
+  font-weight: bold;
+  text-decoration: none;
+}
+/* line 4, ../../../../../Ruby/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/links/_hover-link.scss */
+#content .footer .col-1 h3 a:hover {
+  text-decoration: underline;
+}
+/* line 67, ../src/partials/_bottom.scss */
+#content .footer .col-1 a {
+  font-family: arial, helvetica;
+  font-size: 12px;
+  text-decoration: none;
+  color: #0a0a0a;
+}
+/* line 18, ../../../../../Ruby/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/links/_link-colors.scss */
+#content .footer .col-1 a:visited {
+  color: #0a0a0a;
+}
+/* line 21, ../../../../../Ruby/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/links/_link-colors.scss */
+#content .footer .col-1 a:focus {
+  color: #0a0a0a;
+}
+/* line 24, ../../../../../Ruby/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/links/_link-colors.scss */
+#content .footer .col-1 a:hover {
+  color: #2f7aaf;
+}
+/* line 27, ../../../../../Ruby/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/links/_link-colors.scss */
+#content .footer .col-1 a:active {
+  color: #2f7aaf;
+}
+/* line 74, ../src/partials/_bottom.scss */
+#content .footer .col-2 {
+  float: right;
+  padding: 2px 0 0 24px;
+  margin-top: 11px;
+  width: 306px;
+  border-left: 1px solid #acb2b6;
+}
+/* line 81, ../src/partials/_bottom.scss */
+#content .footer .col-2 .logo {
+  background: url(../images/skarland-logo.gif) no-repeat;
+  height: 32px;
+  width: 145px;
+  float: right;
+}
+/* line 87, ../src/partials/_bottom.scss */
+#content .footer .col-2 .line {
+  border-top: 1px solid #acb2b6;
+  font-size: 1px;
+  height: 1px;
+  line-height: 1px;
+  margin-bottom: 17px;
+  margin-top: 17px;
+}
+/* line 96, ../src/partials/_bottom.scss */
+#content .footer .padder {
+  padding: 6px 12px;
+}
+
+/* line 1, ../src/partials/_topbanner.scss */
+#top-banner {
+  background-color: #fff;
+  height: 172px;
+}
+/* line 4, ../src/partials/_topbanner.scss */
+#top-banner .grid-padder {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+/* line 7, ../src/partials/_topbanner.scss */
+#top-banner .right-ad {
+  width: 768px;
+  float: left;
+  overflow: hidden;
+}
+/* line 11, ../src/partials/_topbanner.scss */
+#top-banner .hlh-box {
+  background: url(../images/hvem-leverer-hva-box-bg.gif) no-repeat;
+  width: 164px;
+  height: 150px;
+  margin-right: 13px;
+  line-height: 19px;
+  font-family: arial, helvetica;
+}
+/* line 18, ../src/partials/_topbanner.scss */
+#top-banner .hlh-box a {
+  line-height: 12px;
+  font-size: 10px;
+  color: #2f7aaf;
+}
+/* line 24, ../src/partials/_topbanner.scss */
+#top-banner .hlh-box h3 {
+  margin-top: 5px;
+  font-size: 10px;
+  font-family: arial, helvetica;
+  font-weight: bold;
+}
+/* line 32, ../src/partials/_topbanner.scss */
+#top-banner .hlh-box input.searchfield {
+  font-size: 11px;
+  width: 123px;
+  margin-bottom: 4px;
+}
+/* line 36, ../src/partials/_topbanner.scss */
+#top-banner .hlh-box input.hlh-searchbtn {
+  margin-right: 9px;
+  float: right;
+}
+/* line 39, ../src/partials/_topbanner.scss */
+#top-banner .hlh-box .padder {
+  padding-top: 60px;
+  padding-left: 17px;
+}
+/* line 42, ../src/partials/_topbanner.scss */
+#top-banner .ad-768, #top-banner .ad-150 {
+  float: left;
+  margin-right: 13px;
+}
+/* line 45, ../src/partials/_topbanner.scss */
+#top-banner .ad-768 {
+  width: 768px;
+}
+/* line 47, ../src/partials/_topbanner.scss */
+#top-banner .ad-150 {
+  width: 150px;
+  margin: 0;
+}
+/* line 50, ../src/partials/_topbanner.scss */
+#top-banner .left-ad {
+  width: 200px;
+  float: left;
+  overflow: hidden;
+  margin-right: 10px;
+}
+
+/* line 2, ../src/partials/_logoheader.scss */
+#top {
+  background: #346f96;
+  background: url('../images/themes/blue/header_blue.png?1291904635') center top repeat-x;
+}
+/* line 3, ../src/partials/_logoheader.scss */
+#top a {
+  text-decoration: none;
+}
+/* line 5, ../src/partials/_logoheader.scss */
+#top a:hover {
+  text-decoration: underline;
+}
+/* line 9, ../src/partials/_logoheader.scss */
+#top .grid-padder {
+  padding: 0 180px 0 13px;
+}
+/* line 11, ../src/partials/_logoheader.scss */
+#top .container {
+  /*	background:url(../images/top-bg.jpg) repeat-x; */
+  background: url('../images/themes/blue/header_blue.png?1291904635') center top repeat-x;
+}
+
+/* line 15, ../src/partials/_logoheader.scss */
+#top-wrapper {
+  height: 91px;
+}
+
+/* line 22, ../src/partials/_logoheader.scss */
+#logo {
+  float: left;
+  left: 19px;
+  position: relative;
+  top: 15px;
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  background-image: url('../images/themes/blue/MI_logo_blue.png?1290695822');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  display: block;
+  width: 421px;
+  height: 56px;
+}
+/* line 33, ../src/partials/_logoheader.scss */
+#logo a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 42, ../src/partials/_logoheader.scss */
+.top-right {
+  width: 500px;
+  float: right;
+  overflow: hidden;
+  text-align: right;
+}
+/* line 50, ../src/partials/_logoheader.scss */
+.top-right .top-search-box .padder {
+  padding: 17px 0;
+  float: right;
+}
+/* line 53, ../src/partials/_logoheader.scss */
+.top-right .top-search-box input.searchfield {
+  width: 169px;
+  position: relative;
+  border: 1px solid #acb2b6;
+  padding: 4px;
+  font-size: 11px;
+}
+/* line 59, ../src/partials/_logoheader.scss */
+.top-right .top-search-box .searchbutton {
+  margin-left: 10px;
+  background: url('../images/themes/blue/search-btn-top.png?1291904909') no-repeat;
+  height: 24px;
+  width: 50px;
+}
+
+/* line 73, ../src/partials/_logoheader.scss */
+#left-side {
+  padding-left: 0px;
+}
+
+/* line 76, ../src/partials/_logoheader.scss */
+#right-side {
+  float: right;
+  padding-right: 177px;
+}
+
+/* line 1, ../src/partials/_menu.scss */
+#main-menu {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 56, ../../../../../Ruby/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
+#main-menu li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0px;
+  white-space: nowrap;
+  display: inline;
+  float: left;
+  padding-left: 0;
+  padding-right: 0;
+}
+/* line 45, ../../../../../Ruby/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
+#main-menu li:first-child, #main-menu li.first {
+  padding-left: 0;
+}
+/* line 46, ../../../../../Ruby/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
+#main-menu li:last-child, #main-menu li.last {
+  padding-right: 0;
+}
+/* line 4, ../src/partials/_menu.scss */
+#main-menu a {
+  background: url('../images/themes/menu_bgimg.png?1291281547') repeat-x;
+  height: 18px;
+  display: block;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 4px;
+  text-decoration: none;
+  color: #0a0a0a;
+  text-transform: uppercase;
+  font-family: arial, helvetica;
+}
+/* line 4, ../../../../../Ruby/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/links/_hover-link.scss */
+#main-menu a:hover {
+  text-decoration: underline;
+}
+/* line 17, ../src/partials/_menu.scss */
+#main-menu a.active {
+  border-left: 1px dotted #757575;
+  border-right: 1px dotted #757575;
+  margin-left: -2px;
+  margin-right: -2px;
+  background: url('../images/themes/blue/menu_active_bgimg.png?1291904653') repeat-x;
+  text-decoration: underline;
+}
+/* line 25, ../src/partials/_menu.scss */
+#main-menu li:first-child {
+  border-left: 1px solid #bdbdbd;
+}
+/* line 28, ../src/partials/_menu.scss */
+#main-menu li {
+  border-right: 1px solid #bdbdbd;
+  background-color: #FFFFFF;
+  padding-left: 1px;
+  padding-right: 1px;
+}
+/* line 34, ../src/partials/_menu.scss */
+#main-menu li.active {
+  padding-bottom: 1px;
+  border-bottom: 1px solid #fff;
+}
+/* line 38, ../src/partials/_menu.scss */
+#main-menu .container {
+  width: 1123px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #F5F3E6;
+  padding-left: 10px;
+  height: 23px;
+  border-bottom: 1px solid #BDBDBD;
+  background: url('../images/themes/menu_background.jpg?1291279328') repeat-x;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+}
+
+/* line 53, ../src/partials/_menu.scss */
+#sub-menu {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 56, ../../../../../Ruby/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
+#sub-menu li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0px;
+  white-space: nowrap;
+  display: inline;
+  float: left;
+  padding-left: 0;
+  padding-right: 0;
+}
+/* line 45, ../../../../../Ruby/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
+#sub-menu li:first-child, #sub-menu li.first {
+  padding-left: 0;
+}
+/* line 46, ../../../../../Ruby/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
+#sub-menu li:last-child, #sub-menu li.last {
+  padding-right: 0;
+}
+/* line 55, ../src/partials/_menu.scss */
+#sub-menu ul {
+  padding-top: 5px;
+}
+/* line 58, ../src/partials/_menu.scss */
+#sub-menu a {
+  height: 18px;
+  display: block;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 4px;
+  text-decoration: none;
+  color: #0a0a0a;
+  font-family: arial, helvetica;
+}
+/* line 4, ../../../../../Ruby/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/links/_hover-link.scss */
+#sub-menu a:hover {
+  text-decoration: underline;
+}
+/* line 68, ../src/partials/_menu.scss */
+#sub-menu .container {
+  width: 1124px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ffffff;
+  padding-left: 10px;
+  height: 30px;
+}
+/* line 76, ../src/partials/_menu.scss */
+#sub-menu .submenu-bottom {
+  background: url(../images/vertical_shaddow.jpg) no-repeat;
+  height: 23px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1134px;
+  background-color: #fff;
+}
+
+/* line 2, ../src/partials/_menu_topright.scss */
+#top-right-menu {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  overflow: hidden;
+  *zoom: 1;
+  background: url("../images/themes/toprightmenu_bg.png") repeat-x scroll 0 0 transparent;
+  height: 29px;
+  float: right;
+  position: relative;
+  top: 1px;
+  overflow: hidden;
+}
+/* line 56, ../../../../../Ruby/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
+#top-right-menu li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0px;
+  white-space: nowrap;
+  display: inline;
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* line 45, ../../../../../Ruby/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
+#top-right-menu li:first-child, #top-right-menu li.first {
+  padding-left: 0;
+}
+/* line 46, ../../../../../Ruby/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
+#top-right-menu li:last-child, #top-right-menu li.last {
+  padding-right: 0;
+}
+/* line 11, ../src/partials/_menu_topright.scss */
+#top-right-menu li {
+  background: url('../images/themes/toprightmenu_separator.png?1291638597') no-repeat;
+  height: 19px;
+  padding-top: 7px;
+  background-position: right;
+}
+/* line 17, ../src/partials/_menu_topright.scss */
+#top-right-menu li.last {
+  background: none;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+/* line 22, ../src/partials/_menu_topright.scss */
+#top-right-menu li.first {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+/* line 29, ../src/partials/_menu_topright.scss */
+#top-right-menu a {
+  font-family: arial, helvetica;
+  color: #0a0a0a;
+}
+
+/* line 31, ../src/partials/_menu_topright.scss */
+.top-right-right {
+  background: url("../images/themes/toprightmenu_right.png") no-repeat scroll 0 0 transparent;
+  float: right;
+  height: 29px;
+  position: relative;
+  top: 1px;
+  width: 4px;
+}
+
+/* line 39, ../src/partials/_menu_topright.scss */
+.top-right-left {
+  background: url("../images/themes/toprightmenu_left.png") no-repeat scroll 0 0 transparent;
+  float: right;
+  height: 29px;
+  position: relative;
+  top: 1px;
+  width: 4px;
+}
+
+/* line 3, ../src/partials/_col4.scss */
+.ad-container .header {
+  background: url('../images/themes/col4_annonse_header_bg.png?1291282733') no-repeat;
+  height: 5px;
+  background-position: center;
+  padding-right: 9px;
+  display: block;
+}
+/* line 10, ../src/partials/_col4.scss */
+.ad-container .padder {
+  padding: 14px 13px 5px 12px;
+}
+/* line 12, ../src/partials/_col4.scss */
+.ad-container .jobs-list {
+  background: white;
+  margin-bottom: 9px;
+  padding-bottom: 0px;
+}
+/* line 16, ../src/partials/_col4.scss */
+.ad-container .jobs-list .header {
+  height: 28px;
+  background: url(../images/stilling-ledig-header-col4.jpg) no-repeat;
+}
+/* line 20, ../src/partials/_col4.scss */
+.ad-container .jobs-list a.icon {
+  padding-left: 21px;
+}
+/* line 22, ../src/partials/_col4.scss */
+.ad-container .jobs-list a.pdf {
+  background: transparent url(../images/icon-pdf-small.jpg) no-repeat scroll left center;
+}
+/* line 25, ../src/partials/_col4.scss */
+.ad-container .jobs-list .job a, .ad-container .jobs-list .job span {
+  line-height: 14px;
+}
+/* line 27, ../src/partials/_col4.scss */
+.ad-container .jobs-list .line {
+  margin: 0;
+  border-top: 1px solid #dfdede;
+  padding-bottom: 2px;
+}
+
+/* line 33, ../src/partials/_col4.scss */
+.ad-container .ad {
+  border: 1px solid #bbbbbb;
+  margin-bottom: 9px;
+}
+/* line 36, ../src/partials/_col4.scss */
+.ad-container .mr {
+  margin-right: 7px;
+  width: 152px;
+}
+/* line 39, ../src/partials/_col4.scss */
+.ad-container .col {
+  width: 152px;
+}
+/* line 41, ../src/partials/_col4.scss */
+.ad-container .padder {
+  padding: 8px 0px 5px 11px;
+}
+
+/* line 1, ../src/elements/_box.scss */
+.box {
+  font-size: 11px;
+  padding: 0;
+  border: 1px solid #b1b1b1;
+  margin-bottom: 10px;
+  font-family: georgia, "times New Roman";
+  display: block;
+}
+/* line 8, ../src/elements/_box.scss */
+.box h2 {
+  font-size: 17px;
+  color: #0a0a0a;
+  text-transform: none;
+  font-weight: normal;
+  padding: 4px 7px 4px 7px;
+  background: url('../images/themes/box_h2_bg.png?1291289623') repeat-x top;
+  display: block;
+  margin: 3px;
+}
+/* line 19, ../src/elements/_box.scss */
+.box .shaddow {
+  background: url('../images/themes/box_h2_shadow.png?1291288754') no-repeat bottom;
+  height: 6px;
+  display: block;
+}
+/* line 24, ../src/elements/_box.scss */
+.box h3 {
+  color: #0a0a0a;
+  font-size: 16px;
+  font-weight: normal;
+  margin-bottom: 5px;
+  text-decoration: none;
+}
+/* line 30, ../src/elements/_box.scss */
+.box h3 a {
+  color: #0a0a0a;
+  font-size: 16px;
+  font-weight: normal;
+  margin-bottom: 5px;
+  text-decoration: none;
+  text-decoration: none;
+  color: #0a0a0a;
+}
+/* line 4, ../../../../../Ruby/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/links/_hover-link.scss */
+.box h3 a:hover {
+  text-decoration: underline;
+}
+/* line 18, ../../../../../Ruby/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/links/_link-colors.scss */
+.box h3 a:visited {
+  color: #0a0a0a;
+}
+/* line 21, ../../../../../Ruby/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/links/_link-colors.scss */
+.box h3 a:focus {
+  color: #0a0a0a;
+}
+/* line 24, ../../../../../Ruby/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/links/_link-colors.scss */
+.box h3 a:hover {
+  color: #2f7aaf;
+}
+/* line 27, ../../../../../Ruby/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/links/_link-colors.scss */
+.box h3 a:active {
+  color: #2f7aaf;
+}
+/* line 39, ../src/elements/_box.scss */
+.box .box-content {
+  overflow: hidden;
+}
+/* line 41, ../src/elements/_box.scss */
+.box .box-content .line {
+  margin: 0;
+  border-top: 1px solid #dfdede;
+  padding-bottom: 4px;
+}
+/* line 45, ../src/elements/_box.scss */
+.box .box-content .article-intro p {
+  font-size: 12px;
+  line-height: 13px;
+  line-height: 15px;
+  margin-bottom: 10px;
+}
+
+/* line 1, ../src/elements/_kalender.scss */
+.kalender {
+  font-size: 11px;
+  padding: 0;
+  border: 1px solid #b1b1b1;
+  margin-bottom: 10px;
+  font-family: georgia, "times New Roman";
+}
+/* line 8, ../src/elements/_kalender.scss */
+.kalender h2 {
+  font-size: 17px;
+  color: #0a0a0a;
+  text-transform: none;
+  font-weight: normal;
+  padding: 4px 7px 4px 7px;
+  background: url('../images/themes/box_h2_bg.png?1291289623') repeat-x top;
+  margin: 3px;
+}
+/* line 17, ../src/elements/_kalender.scss */
+.kalender .headerlink {
+  font-size: 12px;
+  margin-top: 2px;
+  top: 0;
+  float: right;
+}
+/* line 25, ../src/elements/_kalender.scss */
+.kalender .shaddow {
+  background: url('../images/themes/box_h2_shadow.png?1291288754') no-repeat bottom;
+  height: 6px;
+  display: block;
+}
+/* line 31, ../src/elements/_kalender.scss */
+.kalender h3 {
+  color: #0a0a0a;
+  font-size: 14px;
+  font-weight: normal;
+  margin-bottom: 5px;
+  text-decoration: none;
+}
+/* line 41, ../src/elements/_kalender.scss */
+.kalender h3 a {
+  color: #0a0a0a;
+  font-size: 12px;
+  font-weight: normal;
+  margin-bottom: 5px;
+  text-decoration: none;
+  text-decoration: none;
+  color: #0a0a0a;
+}
+/* line 4, ../../../../../Ruby/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/links/_hover-link.scss */
+.kalender h3 a:hover {
+  text-decoration: underline;
+}
+/* line 18, ../../../../../Ruby/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/links/_link-colors.scss */
+.kalender h3 a:visited {
+  color: #0a0a0a;
+}
+/* line 21, ../../../../../Ruby/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/links/_link-colors.scss */
+.kalender h3 a:focus {
+  color: #0a0a0a;
+}
+/* line 24, ../../../../../Ruby/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/links/_link-colors.scss */
+.kalender h3 a:hover {
+  color: #2f7aaf;
+}
+/* line 27, ../../../../../Ruby/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/links/_link-colors.scss */
+.kalender h3 a:active {
+  color: #2f7aaf;
+}
+/* line 50, ../src/elements/_kalender.scss */
+.kalender .date {
+  width: 35%;
+  float: left;
+  font-size: 12px;
+  margin-right: 5px;
+  line-height: 16px;
+}
+/* line 57, ../src/elements/_kalender.scss */
+.kalender .link {
+  width: 63%;
+  float: left;
+  font-size: 12px;
+  line-height: 15px;
+  margin-bottom: 8px;
+}
+/* line 64, ../src/elements/_kalender.scss */
+.kalender .box-content {
+  overflow: hidden;
+  padding-bottom: 20px;
+}
+/* line 68, ../src/elements/_kalender.scss */
+.kalender .box-content .checkboxes input, .kalender .box-content .checkboxes label {
+  margin: 0 4px 0 0;
+  font-size: 11px;
+  line-height: 20px;
+}
+/* line 72, ../src/elements/_kalender.scss */
+.kalender .box-content .checkboxes input {
+  position: relative;
+  top: 2px;
+  margin-bottom: 7px;
+}
+/* line 76, ../src/elements/_kalender.scss */
+.kalender .box-content .checkboxes label {
+  margin-right: 6px;
+}
+/* line 79, ../src/elements/_kalender.scss */
+.kalender .box-content .sted {
+  margin-bottom: 20px;
+  line-height: 16px;
+}
+/* line 82, ../src/elements/_kalender.scss */
+.kalender .box-content .sted label {
+  padding: 5px 0;
+  font-weight: bold;
+  margin-right: 6px;
+  display: block;
+}
+/* line 87, ../src/elements/_kalender.scss */
+.kalender .box-content .sted select {
+  width: 163px;
+  font-size: 11px;
+  margin-right: 6px;
+  display: block;
+  float: left;
+}
+/* line 95, ../src/elements/_kalender.scss */
+.kalender .box-content .sted .buttonwrapper {
+  float: right;
+  position: relative;
+  right: 42px;
+  top: -4px;
+}
+
+/* line 1, ../src/elements/_articlelists.scss */
+.main-article {
+  margin-bottom: 15px;
+}
+/* line 3, ../src/elements/_articlelists.scss */
+.main-article .intro-image {
+  margin-bottom: 7px;
+}
+/* line 5, ../src/elements/_articlelists.scss */
+.main-article p {
+  margin-bottom: 10px;
+}
+/* line 7, ../src/elements/_articlelists.scss */
+.main-article h1 {
+  font-size: 36px;
+  line-height: 40px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+/* line 12, ../src/elements/_articlelists.scss */
+.main-article h1 a {
+  font-weight: bold;
+  color: #001722;
+}
+
+/* line 17, ../src/elements/_articlelists.scss */
+.article-intro h2 {
+  font-size: 20px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+/* line 21, ../src/elements/_articlelists.scss */
+.article-intro p {
+  margin-bottom: 3px;
+}
+/* line 23, ../src/elements/_articlelists.scss */
+.article-intro p a {
+  color: black;
+  text-decoration: none;
+}
+/* line 26, ../src/elements/_articlelists.scss */
+.article-intro p a:hover {
+  text-decoration: underline;
+}
+/* line 28, ../src/elements/_articlelists.scss */
+.article-intro .intro-image {
+  margin-bottom: 10px;
+  display: block;
+}
+
+/* line 1, ../src/elements/_article.scss */
+h1.article-header {
+  font-size: 45px;
+  line-height: 55px;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+/* line 8, ../src/elements/_article.scss */
+.article {
+  line-height: 20px;
+  font-size: 14px;
+  font-family: georgia, "times New Roman";
+  color: #141414;
+}
+
+/* line 15, ../src/elements/_article.scss */
+.article-mainpicture {
+  line-height: 12px;
+  background: white;
+  border: 1px solid #acb2b6;
+  width: 466px;
+}
+/* line 20, ../src/elements/_article.scss */
+.article-mainpicture img {
+  border: 5px solid white;
+}
+
+/* line 25, ../src/elements/_article.scss */
+.picture-caption {
+  border-bottom: 1px solid #acb2b6;
+  font-size: 12px;
+  color: #353535;
+  line-height: 16px;
+  padding: 6px 2px 7px;
+}
+
+/* line 32, ../src/elements/_article.scss */
+.summary {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* line 37, ../src/elements/_article.scss */
+.byline {
+  margin-top: 20px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #acb2b6;
+  display: block;
+  overflow: hidden;
+  font-size: 12px;
+  line-height: 14px;
+}
+/* line 45, ../src/elements/_article.scss */
+.byline .person {
+  float: left;
+  width: 215px;
+}
+/* line 48, ../src/elements/_article.scss */
+.byline .person a {
+  color: #0a0a0a;
+}
+/* line 18, ../../../../../Ruby/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/links/_link-colors.scss */
+.byline .person a:visited {
+  color: #0a0a0a;
+}
+/* line 21, ../../../../../Ruby/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/links/_link-colors.scss */
+.byline .person a:focus {
+  color: #0a0a0a;
+}
+/* line 24, ../../../../../Ruby/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/links/_link-colors.scss */
+.byline .person a:hover {
+  color: #2f7aaf;
+}
+/* line 27, ../../../../../Ruby/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/links/_link-colors.scss */
+.byline .person a:active {
+  color: #2f7aaf;
+}
+/* line 52, ../src/elements/_article.scss */
+.byline img {
+  float: left;
+  margin-right: 10px;
+}
+
+/* line 57, ../src/elements/_article.scss */
+.tools {
+  margin-top: 5px;
+  clear: both;
+  height: 23px;
+}
+/* line 61, ../src/elements/_article.scss */
+.tools img {
+  float: right;
+  margin-right: 10px;
+}
+/* line 64, ../src/elements/_article.scss */
+.tools img.last {
+  margin-right: 0px;
+}
+/* line 68, ../src/elements/_article.scss */
+.tools p {
+  display: inline;
+  font-size: 12px;
+  color: #353535;
+  float: left;
+}
+
+/* line 75, ../src/elements/_article.scss */
+.banner {
+  margin-top: 20px;
+}
+
+/* line 78, ../src/elements/_article.scss */
+.paragraph {
+  margin-top: 20px;
+}
+/* line 80, ../src/elements/_article.scss */
+.paragraph h2 {
+  font-weight: bold;
+}
+/* line 83, ../src/elements/_article.scss */
+.paragraph p {
+  margin-bottom: 12px;
+}
+/* line 86, ../src/elements/_article.scss */
+.paragraph .picture {
+  width: 259px;
+}
+/* line 88, ../src/elements/_article.scss */
+.paragraph .picture.fr {
+  margin-left: 10px;
+}
+/* line 91, ../src/elements/_article.scss */
+.paragraph .picture.fl {
+  margin-right: 10px;
+}
+/* line 93, ../src/elements/_article.scss */
+.paragraph .picture caption {
+  float: right;
+  overflow: hidden;
+  font-size: 12px;
+  line-height: 12px;
+}
+/* line 99, ../src/elements/_article.scss */
+.paragraph .picture img {
+  border: 5px solid white;
+  padding: 5px;
+  border: 1px solid #acb2b6;
+  background-color: white;
+}
+/* line 105, ../src/elements/_article.scss */
+.paragraph .picture .caption {
+  display: block;
+  clear: both;
+  font-size: 12px;
+  color: #353535;
+  padding: 6px 2px 7px;
+  line-height: 16px;
+  border-bottom: 1px solid #acb2b6;
+}
+
+/* line 117, ../src/elements/_article.scss */
+.linklist {
+  width: 50%;
+  float: left;
+  padding-right: 10px;
+  width: 224px;
+}
+/* line 122, ../src/elements/_article.scss */
+.linklist h3 {
+  margin-bottom: 7px;
+}
+/* line 125, ../src/elements/_article.scss */
+.linklist a {
+  font-size: 12px;
+  padding-bottom: 7px;
+  display: block;
+  text-decoration: none;
+  line-height: 14px;
+}
+/* line 4, ../../../../../Ruby/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/links/_hover-link.scss */
+.linklist a:hover {
+  text-decoration: underline;
+}
+/* line 132, ../src/elements/_article.scss */
+.linklist.last {
+  padding-right: 0px;
+  width: 234px;
+}

@@ -1,0 +1,54 @@
+#top-banner {
+	background-color: #fff;
+  height: 172px;
+  .grid-padder {
+    padding-top: 10px;
+    padding-bottom: 10px; }
+  .right-ad {
+    width: 768px;
+    float: left;
+    overflow: hidden; }
+  .hlh-box {
+    background: url(../images/hvem-leverer-hva-box-bg.gif) no-repeat;
+    width: 164px;
+    height: 150px;
+    margin-right: 13px;
+    line-height: 19px;
+    font-family: $subfont;
+    a {
+      line-height: 12px;
+      font-size: 10px;
+      color: $lightblue;
+
+    }
+    h3 {
+      margin-top: 5px;
+      font-size: 10px;
+      font-family: $subfont;
+      font-weight: bold;
+
+    }
+    input {
+      &.searchfield {
+        font-size: 11px;
+        width: 123px;
+        margin-bottom: 4px; }
+      &.hlh-searchbtn {
+        margin-right: 9px;
+        float: right; } }
+    .padder {
+      padding-top: 60px;
+      padding-left: 17px; } }
+  .ad-768, .ad-150 {
+    float: left;
+    margin-right: 13px; }
+  .ad-768 {
+    width: 768px; }
+  .ad-150 {
+    width: 150px;
+    margin: 0; }
+  .left-ad {
+    width: 200px;
+    float: left;
+    overflow: hidden;
+    margin-right: 10px; } }

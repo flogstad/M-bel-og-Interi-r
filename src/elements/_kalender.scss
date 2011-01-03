@@ -1,0 +1,103 @@
+.kalender {
+	font-size: 11px;
+	padding: 0;
+	border: 1px solid #b1b1b1;
+	margin-bottom: 10px; 
+	font-family: ($mainfont);
+
+	h2 {
+	font-size: 17px;
+	color: $black;
+	text-transform: none;
+	font-weight: normal;
+	padding: 4px 7px 4px 7px;
+	background: image-url($box-h2-bg) repeat-x top;
+	margin: 3px;
+	}
+	.headerlink{
+		font-size: 12px;
+		margin-top: 2px;
+		top: 0;
+		float: right;
+
+	}
+	.shaddow
+	{
+	background: image-url($box-shadow) no-repeat bottom;
+	height: 6px;
+	display: block;
+	}
+
+	h3 {
+	  color: ($black);
+	  font-size: 14px;
+	  font-weight: normal;
+	  margin-bottom: 5px;
+	  text-decoration: none; 
+
+
+	}
+
+	h3 a {
+	  color: ($black);
+	  font-size: 12px; 
+	  font-weight: normal;
+	  margin-bottom: 5px;
+	  text-decoration: none;
+	  @include hover-link; 
+	  @include link-colors($normal, $hover, $active, $visited, $focus); 
+	   }
+	.date {
+		width: 35%;
+		float: left; 
+		font-size: 12px;
+		margin-right: 5px;
+		line-height: 16px;
+	}
+	.link {
+		width: 63%;
+		float: left;
+		font-size: 12px;
+		line-height: 15px;
+		margin-bottom: 8px;
+	}
+	.box-content {
+		overflow: hidden;
+		padding-bottom: 20px;
+		.checkboxes {
+			input, label {
+			margin: 0 4px 0 0;
+			font-size: 11px;
+			line-height: 20px;}
+			input {
+			position: relative;
+			top: 2px; 
+			margin-bottom: 7px;}
+			label {
+			margin-right: 6px;} 
+		}
+		.sted {
+		margin-bottom: 20px;
+		line-height: 16px;
+			label {
+			padding: 5px 0;
+			font-weight: bold;
+			margin-right: 6px;
+			display: block; }
+			select {
+			width: 163px;
+			font-size: 11px;
+			margin-right: 6px; 
+			display: block;
+			float:left;	
+		}
+
+		.buttonwrapper {
+		float: right;
+		position: relative;
+		right: 42px;
+		top: -4px; } 
+		}
+	}
+}
+

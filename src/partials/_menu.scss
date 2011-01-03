@@ -1,0 +1,86 @@
+#main-menu {
+	@include horizontal-list(0,left);
+
+	a {
+		background: image-url($mainmenu-bgimg) repeat-x; 
+		height:18px; 
+		display:block;
+		padding-left: 15px; 
+		padding-right: 15px;
+		padding-top: 4px;
+		@include hover-link;
+		color: ($menu-linkcolor);
+		text-transform:uppercase;
+		font-family: ($subfont);
+
+	}
+	a.active {
+		border-left: 1px dotted #757575;
+		border-right: 1px dotted #757575;
+		margin-left: -2px;
+		margin-right: -2px;
+		background: image-url($activemenu-bgimg) repeat-x; 
+		text-decoration: underline;
+	}
+	li:first-child {
+		border-left: 1px solid #bdbdbd;
+	}
+	li{
+		border-right: 1px solid #bdbdbd;
+		background-color:#FFFFFF;
+		padding-left:1px;
+		padding-right:1px;
+	}
+	li.active {
+		padding-bottom: 1px;
+		border-bottom: 1px solid #fff;
+	}
+	.container {
+	  width: 1123px;
+	  margin-left: auto;
+	  margin-right: auto; 
+	  background-color: #F5F3E6; 
+	  padding-left: 10px;
+	  height: 23px;
+	  border-bottom: 1px solid #BDBDBD;
+	  background: image-url($menu-bgimg) repeat-x; 
+	  border-left: 1px solid #fff;
+	  border-right: 1px solid #fff;
+	}
+
+}
+
+#sub-menu {
+	@include horizontal-list(0,left);
+	ul {
+		padding-top: 5px;
+	}
+	a {
+		height:18px; 
+		display:block;
+		padding-left: 5px; 
+		padding-right: 5px;
+		padding-top: 4px;
+		@include hover-link;
+		color: ($menu-linkcolor);
+		font-family: ($subfont);
+	}
+	.container {
+	  width: 1124px;
+	  margin-left: auto;
+	  margin-right: auto; 
+	  background-color: #ffffff; 
+	  padding-left: 10px;
+	  height: 30px;
+	}
+	.submenu-bottom{
+		background: url(../images/vertical_shaddow.jpg) no-repeat;
+		height:23px;
+		margin-left:auto;
+		margin-right:auto;
+		width:1134px; 
+		background-color: #fff;		
+
+	}
+
+}

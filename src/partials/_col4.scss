@@ -1,0 +1,42 @@
+.ad-container {
+  
+  .header {
+    background: image-url($col4-header) no-repeat;
+    height: 5px; 
+	background-position: center;
+	padding-right: 9px;
+	display: block;
+	}
+  .padder {
+    padding: 14px 13px 5px 12px; }
+  .jobs-list {
+    background: white;
+    margin-bottom: 9px;
+    padding-bottom: 0px; 
+    .header {
+      height: 28px;
+      background: url(../images/stilling-ledig-header-col4.jpg) no-repeat; }
+    a {
+      &.icon {
+        padding-left: 21px; }
+      &.pdf {
+        background: transparent url(../images/icon-pdf-small.jpg) no-repeat scroll left center; } }
+    .job {
+      a, span {
+        line-height: 14px; } }
+    .line {
+      margin: 0;
+      border-top: 1px solid $light-gray;
+      padding-bottom: 2px; } } }
+
+.ad-container {
+  .ad {
+    border: 1px solid #bbbbbb;
+    margin-bottom: 9px; }
+  .mr {
+    margin-right: 7px;
+    width: 152px; }
+  .col {
+    width: 152px; }
+  .padder {
+    padding: 8px 0px 5px 11px; } }
