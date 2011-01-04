@@ -2233,6 +2233,11 @@ a.pdf {
   line-height: 15px;
   margin-bottom: 10px;
 }
+/* line 51, ../src/elements/_box.scss */
+.box .box-content .links ul {
+  list-style-position: inside;
+  list-style-type: none;
+}
 
 /* line 1, ../src/elements/_kalender.scss */
 .kalender {
@@ -2414,7 +2419,7 @@ a.pdf {
 }
 /* line 28, ../src/elements/_articlelists.scss */
 .article-intro .intro-image {
-  margin-bottom: 10px;
+  margin-bottom: 6px;
   display: block;
 }
 
