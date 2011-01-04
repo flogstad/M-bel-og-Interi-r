@@ -51,6 +51,12 @@
      .links ul {
         list-style-position: inside;
         list-style-type: none;        
+        li {
+          margin-bottom: 10px;
+          a {
+            font-size: 11px;
+          }
+        }
      }
 	}
 }

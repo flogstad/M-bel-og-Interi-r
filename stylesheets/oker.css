@@ -2238,6 +2238,14 @@ a.pdf {
   list-style-position: inside;
   list-style-type: none;
 }
+/* line 54, ../src/elements/_box.scss */
+.box .box-content .links ul li {
+  margin-bottom: 10px;
+}
+/* line 56, ../src/elements/_box.scss */
+.box .box-content .links ul li a {
+  font-size: 11px;
+}
 
 /* line 1, ../src/elements/_kalender.scss */
 .kalender {
